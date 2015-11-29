@@ -50,7 +50,23 @@ h3 {
     color: white;
     float: left;
     clear: left;
+}
 
+img {
+	float: left;
+	clear: left;
+}
+
+.places li {
+	list-style-type: disc;
+	float: left;
+	clear: left;
+
+}
+
+#map {
+	width: 500px;
+	height: 400px;
 }
 
 
@@ -116,6 +132,7 @@ li{
 	clear: left;
 	background-color: grey;
 }
+
 
 a {
 	text-decoration: none;
