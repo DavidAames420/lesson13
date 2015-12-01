@@ -21,6 +21,7 @@ h3 {
 	position: relative;
 	padding-left: 10%;
 	padding-top: 100px;
+	padding-bottom: 800px;
 
 	font-size: 70px;
 	background-image: url("attack2.jpg");
@@ -65,8 +66,7 @@ img {
 }
 
 #map {
-	width: 500px;
-	height: 400px;
+	float: right;
 }
 
 
@@ -80,8 +80,14 @@ img {
 	float: left;
 }
 
-.shoulder{
-	;
+.knee {
+	  float: left;
+	  clear: left;
+	  background-color: grey;
+}
+
+h4 {
+	float: left;
 }
 
 

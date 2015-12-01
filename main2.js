@@ -4,15 +4,14 @@ function addLeadingZeroes(string, digitCount) {
         hasLeadingZero,
         hasCorrectLength;
 
-    // Add maximum number of zeros to the front of the string
+    
     zeroString = '';
     for (var i = 0; i < digitCount - 1; i++) {
       zeroString += '0';
     }
     hasLeadingZero = zeroString + string;
 
-    // Trim string to desired length to eliminate any unnecessary
-    // leading zeros
+    
     hasCorrectLength = hasLeadingZero.substr(digitCount * -1);
 
     return hasCorrectLength;
@@ -26,7 +25,7 @@ $(document).ready(function(){
         minutes,
         hours;
 
-    // Cache DOM elements
+    
     var $milliseconds = $('#milliseconds'),
         $seconds = $('#seconds'),
         $minutes = $('#minutes'),
